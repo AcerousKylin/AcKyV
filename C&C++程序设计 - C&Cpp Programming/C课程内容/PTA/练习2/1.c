@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(void)
+{
+    int C, F;
+    C = 26;
+    F = 9*C/5+32;
+    printf("celsius = 26, fahr = %d", F);
+    return 0;
+}

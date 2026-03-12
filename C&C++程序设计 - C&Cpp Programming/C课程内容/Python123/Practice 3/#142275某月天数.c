@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(void)
+{
+    int year, month, day;
+    scanf("%d %d", &year, &month);
+    if (month==1||month==3||month==5||month==7||month==8||month==10||month==12)
+        day = 31;
+    if (month==4||month==6||month==9||month==11)
+        day = 30;
+    if (month==2)
+    {
+        if ((year%4==0&&year%100!=0)||year%400==0)
+            day = 29;
+        else
+            day = 28;
+    }
+    printf("%d", day);
+    return 0;
+}
