@@ -11,6 +11,7 @@ AcerousKylin's filed archives. Scattered modules including:
 - 编译原理 - Compiler's Principle
   - 字词分析器 - **C-based** word analysis
   - 其他 - **JavaCC** CParser
+- 操作系统（课程设计） - OS Course in **Cpp**
 - 数据结构与算法设计 - Data Structure and Algorithm Design
   - 模板 - Templates of frequently used algorigthm in **C**
   - 数据结构 - Data Structure's course examples in **C**
