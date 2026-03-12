@@ -1,0 +1,6 @@
+{
+  "Kylin": ["Bravo", "Citrus"],
+  "Bravo": ["Delta", "Ethan"],
+  "Citrus": ["Fame", "Guardian"],
+  "Delta": ["Haile", "Irene"]
+}

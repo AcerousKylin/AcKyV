@@ -1,0 +1,8 @@
+INFO = "[INFO]   :"
+WARN = "[WARNING]:"
+ERR_ = "[ERROR]  :"
+ENT_ = "[ENTRY]  :"
+SPA_ = ".........."
+PE2C_ = "Press Enter to continue..."
+PE2GB = "Press Enter to go back..."
+PE2Q_ = "Press Enter to quit..."
