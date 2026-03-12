@@ -1,0 +1,17 @@
+D:\Code Space\C#\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+D:\Code Space\C#\Final Project\obj\Debug\Final Project.csproj.SuggestedBindingRedirects.cache
+D:\Code Space\C#\Final Project\obj\Debug\Final_Project.FormAlarm.resources
+D:\Code Space\C#\Final Project\obj\Debug\Final_Project.FormChangePwd.resources
+D:\Code Space\C#\Final Project\obj\Debug\Final_Project.FormLogin.resources
+D:\Code Space\C#\Final Project\obj\Debug\Final_Project.FormMain.resources
+D:\Code Space\C#\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+D:\Code Space\C#\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+D:\Code Space\C#\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+D:\Code Space\C#\Final Project\bin\Debug\Final Project.exe.config
+D:\Code Space\C#\Final Project\bin\Debug\Final Project.exe
+D:\Code Space\C#\Final Project\bin\Debug\Final Project.pdb
+D:\Code Space\C#\Final Project\obj\Debug\Final Project.exe
+D:\Code Space\C#\Final Project\obj\Debug\Final Project.pdb
+D:\Code Space\C#\Final Project\obj\Debug\Final_Project.FormNotice.resources
+D:\Code Space\C#\Final Project\obj\Debug\Final_Project.FormShowNotice.resources
+D:\Code Space\C#\Final Project\obj\Debug\Final_Project.FormReport.resources

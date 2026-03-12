@@ -1,4 +1,6 @@
-# AcerousKylin's Archive
+# 无角的仓库 - AcerousKylin's Archive
+
+无角的归档仓库。有如下分散的模块：
 
 AcerousKylin's filed archives. Scattered modules including:
 
@@ -11,4 +13,5 @@ AcerousKylin's filed archives. Scattered modules including:
   - 数据结构课程设计 - Data Structure's course work in **Python**
   - 算法设计 - Algorithm Design in **Cpp**
 - C&C++程序设计 - C&Cpp Programming Course
+- C#程序设计 - C# Programming Course
 - OJ

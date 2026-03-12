@@ -1,0 +1,10 @@
+D:\Code Space\C#\The Fifth Work - 15th April\bin\Debug\The Fifth Work - 15th April.exe.config
+D:\Code Space\C#\The Fifth Work - 15th April\bin\Debug\The Fifth Work - 15th April.exe
+D:\Code Space\C#\The Fifth Work - 15th April\bin\Debug\The Fifth Work - 15th April.pdb
+D:\Code Space\C#\The Fifth Work - 15th April\obj\Debug\The Fifth Work - 15th April.csproj.AssemblyReference.cache
+D:\Code Space\C#\The Fifth Work - 15th April\obj\Debug\The Fifth Work - 15th April.csproj.SuggestedBindingRedirects.cache
+D:\Code Space\C#\The Fifth Work - 15th April\obj\Debug\The Fifth Work - 15th April.csproj.CoreCompileInputs.cache
+D:\Code Space\C#\The Fifth Work - 15th April\obj\Debug\The Fifth Work - 15th April.exe
+D:\Code Space\C#\The Fifth Work - 15th April\obj\Debug\The Fifth Work - 15th April.pdb
+D:\Code Space\C#\The Fifth Work - 15th April\obj\Debug\The_Fifth_Work___15th_April.Properties.Resources.resources
+D:\Code Space\C#\The Fifth Work - 15th April\obj\Debug\The Fifth Work - 15th April.csproj.GenerateResource.cache

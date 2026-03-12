@@ -1,0 +1,8 @@
+D:\Code Space\C#\The Third Work - 25th March 2023\obj\Debug\The Third Work - 25th March.csproj.AssemblyReference.cache
+D:\Code Space\C#\The Third Work - 25th March 2023\obj\Debug\The Third Work - 25th March.csproj.SuggestedBindingRedirects.cache
+D:\Code Space\C#\The Third Work - 25th March 2023\obj\Debug\The Third Work - 25th March.csproj.CoreCompileInputs.cache
+D:\Code Space\C#\The Third Work - 25th March 2023\bin\Debug\The Third Work - 25th March.exe.config
+D:\Code Space\C#\The Third Work - 25th March 2023\bin\Debug\The Third Work - 25th March.exe
+D:\Code Space\C#\The Third Work - 25th March 2023\bin\Debug\The Third Work - 25th March.pdb
+D:\Code Space\C#\The Third Work - 25th March 2023\obj\Debug\The Third Work - 25th March.exe
+D:\Code Space\C#\The Third Work - 25th March 2023\obj\Debug\The Third Work - 25th March.pdb

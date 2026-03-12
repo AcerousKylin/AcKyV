@@ -1,0 +1,8 @@
+D:\Code Space\C#\March 11th 2023\bin\Debug\March 11th 2023.exe.config
+D:\Code Space\C#\March 11th 2023\bin\Debug\March 11th 2023.exe
+D:\Code Space\C#\March 11th 2023\bin\Debug\March 11th 2023.pdb
+D:\Code Space\C#\March 11th 2023\obj\Debug\March 11th 2023.csproj.AssemblyReference.cache
+D:\Code Space\C#\March 11th 2023\obj\Debug\March 11th 2023.csproj.SuggestedBindingRedirects.cache
+D:\Code Space\C#\March 11th 2023\obj\Debug\March 11th 2023.csproj.CoreCompileInputs.cache
+D:\Code Space\C#\March 11th 2023\obj\Debug\March 11th 2023.exe
+D:\Code Space\C#\March 11th 2023\obj\Debug\March 11th 2023.pdb
