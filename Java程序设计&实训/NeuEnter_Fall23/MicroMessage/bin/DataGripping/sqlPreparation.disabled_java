@@ -1,0 +1,92 @@
+package DataGripping;
+
+import java.sql.*;
+
+public class sqlPreparation extends dataGripping{
+    protected PreparedStatement preStatement;
+    private String sql;
+    private String object;
+    private String objectName;
+    private String objectOperation;
+    private String objectCondition;
+    
+    public sqlPreparation ()
+    {
+        this.sql = "";
+        this.object = "";
+        this.objectName = "";
+        this.objectOperation = "";
+        this.objectCondition = "";
+    }
+    
+    public sqlPreparation (String sql)
+    {
+        this.sql = sql;
+        this.object = "";
+        this.objectName = "";
+        this.objectOperation = "";
+        this.objectCondition = "";
+    }
+
+    public void close() throws SQLException
+    {
+        preStatement.close();
+        super.getConnection().close();
+    }
+
+    public sqlPreparation(String obj, String objName, String objOp, String objCondi)
+    {
+        this.object = obj;
+        this.objectName = objName;
+        this.objectOperation = objOp;
+        this.objectCondition = objCondi;
+    }
+    
+    public PreparedStatement sqlInsertMulti() throws SQLException
+    {
+        System.out.println("Loading a statement for INSERT VALUES.");
+        sql = "INSERT INTO ? VALUES(?);";
+        preStatement = super.getConnection().prepareStatement(sql);
+        preStatement.setString(1, objectName);
+        preStatement.setString(2, objectOperation);
+        return preStatement;
+    }
+
+    public PreparedStatement sqlUpdate() throws SQLException
+    {
+        System.out.println("Loading a statement for UPDATE.");
+        sql = "UPDATE ? SET ? WHERE ?;";
+        preStatement = super.getConnection().prepareStatement(sql);
+        preStatement.setString(1, objectName);
+        preStatement.setString(2, objectOperation);
+        preStatement.setString(3, objectCondition);
+        return preStatement;
+    }
+
+    public PreparedStatement sqlDrop() throws SQLException
+    {
+        System.out.println("Loading a statement for DROP;");
+        sql = "DROP ?;";
+        preStatement.setString(1, objectName);
+        return preStatement;
+    }
+
+    public PreparedStatement sqlAlter() throws SQLException
+    {
+        System.out.println("Loading a statement for ALTER.");
+        sql = "ALTER ? ? ? ?;";
+        preStatement.setString(1, object);
+        preStatement.setString(2, objectName);
+        preStatement.setString(3, objectOperation);
+        preStatement.setString(4, objectCondition);
+        return preStatement;
+    }
+
+    public PreparedStatement sqlInsertSingle() throws SQLException
+    {
+        System.out.println("Loading a statement for INSERT VALUE");
+        sql = "INSERT INTO ? VALUE(?);";
+        preStatement = getConnection().prepareStatement(sql);
+        return preStatement;
+    }
+}

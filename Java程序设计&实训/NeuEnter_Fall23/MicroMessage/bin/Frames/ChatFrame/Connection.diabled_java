@@ -1,0 +1,71 @@
+package Frames.ChatFrame;
+
+import java.io.IOException;
+import java.net.*;
+
+public class Connection {
+    String message;
+    
+    DatagramSocket datagramSocket;
+    DatagramPacket datagramPacket;
+    String hostIP;
+    int hostPort;
+
+    public Connection()
+    {
+        initSocket();
+        sendMessage();
+    }
+
+    private void initSocket()
+    {
+        try {
+            datagramSocket = new DatagramSocket();
+            hostPort = datagramSocket.getLocalPort();
+            hostIP = InetAddress.getLocalHost().getHostAddress();
+        } catch (SocketException se) {
+            throw new RuntimeException(se);
+        } catch (UnknownHostException uhe) {
+            throw new RuntimeException(uhe);
+        }
+
+        new ReceiverThread().start();
+    }
+
+    public void sendMessage()
+    {
+        String ip="127.0.0.1";
+        int port=25565;
+        System.out.println(ip + " " + port + ": " + message);
+        byte[] bytepack = message.getBytes();
+        try {
+            datagramPacket = new DatagramPacket(bytepack, bytepack.length, InetAddress.getByName(ip), port);
+            datagramSocket.send(datagramPacket);
+        } catch (UnknownHostException uhe) {
+            throw new RuntimeException(uhe);
+        } catch (IOException ioe) {
+            throw new RuntimeException(ioe);
+        }
+    }
+
+    class ReceiverThread extends Thread
+    {
+        @Override
+        public void run()
+        {
+            byte[] bytepack = new byte[100010];
+            while (true)
+            {
+                DatagramPacket datagramPacket = new DatagramPacket(bytepack,  bytepack.length);
+                try {
+                    datagramSocket.receive(datagramPacket);
+                    int length = datagramPacket.getLength();
+                    String message = new String(bytepack, 0, length);
+                    System.out.println("Message received: " + message);
+                } catch (IOException ioe) {
+                    throw new RuntimeException(ioe);
+                }
+            }
+        }
+    }
+}
