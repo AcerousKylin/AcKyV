@@ -1,0 +1,295 @@
+{
+  "version": "1.0",
+  "workerIdList": [
+    -1
+  ],
+  "metrics": [
+    {
+      "type": "build_line",
+      "endTime": 1696409158704,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "init",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696409158702
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696409158711,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "init",
+      "taskPath": "LoginPreview",
+      "workerId": -1,
+      "startTime": 1696409158711
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411804316,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreBuild",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804215
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411804321,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@MergeProfile",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804317
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411804328,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@GenerateLoaderJson",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804324
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411804456,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@ProcessProfile",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804331
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411804461,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreviewProcessResource",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804458
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411804641,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreviewCompileResource",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804463
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411804642,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreviewHookCompileResource",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804642
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411804646,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@ReplacePreviewerPage",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804642
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411804647,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "buildPreviewerResource",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804647
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411804649,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreviewUpdateAssets",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804647
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411808379,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreviewArkTS",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411804649
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696411808381,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "PreviewBuild",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696411808381
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413937890,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreBuild",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937888
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413937893,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@MergeProfile",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937891
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413937895,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@GenerateLoaderJson",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937895
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413937898,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@ProcessProfile",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937897
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413937903,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreviewProcessResource",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937899
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413937912,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreviewCompileResource",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937905
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413937913,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreviewHookCompileResource",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937913
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413937915,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@ReplacePreviewerPage",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937913
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413937916,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "buildPreviewerResource",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937916
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413937917,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreviewUpdateAssets",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937916
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413941630,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "default@PreviewArkTS",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413937918
+    },
+    {
+      "type": "build_line",
+      "endTime": 1696413941634,
+      "status": "closed",
+      "children": [],
+      "name": "overallTime",
+      "taskName": "PreviewBuild",
+      "taskPath": "entry",
+      "workerId": -1,
+      "startTime": 1696413941634
+    }
+  ],
+  "workLog": []
+}
