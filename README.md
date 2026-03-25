@@ -6,7 +6,7 @@ AcerousKylin's filed archives. Scattered modules including:
 
 - C&C++程序设计 - C&Cpp Programming Course
 - C#程序设计 - C# Programming Course
-- H
+- HarmonyOS 2.0 Dev - 鸿蒙2.0开发内容
 - Java程序设计&实训 - Java Programming Course & Works
   - InheritTest - 类继承实验
   - java_net - Java网络开发小示例
