@@ -7,6 +7,7 @@ AcerousKylin's filed archives. Scattered modules including:
 - C&C++程序设计 - C&Cpp Programming Course
 - C#程序设计 - C# Programming Course
 - MATLAB（图像处理） - Image Processing
+- MySQL - Database Course
 - OJ
 - Python小玩意 - Python Widgets
 - 编译原理 - Compiler's Principle
